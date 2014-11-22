@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2014-11-22T22:27:39+01:00</updated>
+  <updated>2014-11-22T22:38:02+01:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://mermi.github.io/blog/2014/11/22/hello/"/>
-    <updated>2014-11-22T22:27:05+01:00</updated>
-    <id>http://mermi.github.io/blog/2014/11/22/hello</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[First participation on Mozilla Festival]]></title>
