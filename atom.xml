@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2014-12-18T04:56:26+01:00</updated>
+  <updated>2015-01-13T13:28:52+01:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mozilla Work Week in Portland]]></title>
+    <link href="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/"/>
+    <updated>2015-01-13T13:16:46+01:00</updated>
+    <id>http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland</id>
+    <content type="html"><![CDATA[<p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
+In this Post I am telling you about my experience in a Mozilla Work Week:</p>
+
+<p>Me and Ahmed Nefzaoui, were invited to participate to this amazing work week, It was a huge opportunity for us to ,  At first we  were stressed  about getting our USA Visa, and then when we got it, the adventure travelling to USA and meet the most important people of Mozilla started.</p>
+
+<p>It was from 1st December to 6th, which was gathering the different teams and people from different functional areas working for the Mozilla project, to plan for the future of Mozilla, specifically for the next year but also have a lot of FUN.
+I was invited by the CBT (Community Building Team), because of the kind of my contribution, I was also around Localization, Webmaker and Firefox OS teams, I presented in many sessions in which discussed about Mozilla Events in 2015 and about the regional community propose solutions to the current problems. Amazing experience it was.
+I&rsquo;m very proud to be there and meet all those awesome people I always knew through IRC, Twitter and Facebook. I had a chance to meet Pascal Chevrel  and talked  with him about Arabic Localization and I had the chance to get guidance from him on how to work on the l10n of mozilla.org.</p>
+
+<p>I met also the Firefox OS UX Team led by Stephany Wilkes to discuss Design Patterns in Firefox OS Right-To-Left (RTL) User interface I was very happy to meet them and I spoke spontaneously to them, just because I felt like with my family.
+I was very proud and glad to finally meet the lovely french women that I knew through IRC and Twitter and the first person to guide me in Womoz &ldquo;Dephine&rdquo;.
+&ldquo; I&rsquo;m very glad to meet you delphine, I spent amazing moments with you in #mozlandia &rdquo;
+I had the opportunity to meet and know new Mozillians, Thanks for all the people that made my travel and this experience happen  with a lot of Fun.
+Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to meet you all very soon!!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Participation on Mozilla Festival]]></title>
