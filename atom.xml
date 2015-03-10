@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-03-10T17:13:53+01:00</updated>
+  <updated>2015-03-10T17:26:41+01:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -125,6 +125,36 @@
 
 <pre><code>Select * From Table
 </code></pre>
+
+<ul>
+<li>With condition:</li>
+</ul>
+
+
+<blockquote><p>   Select * From Table_name Where Column like &lsquo;Ahmed&rsquo;</p></blockquote>
+
+<ul>
+<li>Sometimes we can found duplicated values in a Table so we use DISTINCT :</li>
+</ul>
+
+
+<blockquote><p>   Select DISTINCT name from EMPLOYEE</p></blockquote>
+
+<ul>
+<li>Aliases: give to a column a temporary name:</li>
+</ul>
+
+
+<blockquote><p>   SELECT column_name AS alias_name FROM table_name;</p></blockquote>
+
+<ul>
+<li>NULL values: IS NULL or IS NOT NULL</li>
+</ul>
+
+
+<blockquote><p>   SELECT LastName,FirstName,Address FROM EMPLYEE WHERE Address IS NULL</p></blockquote>
+
+<p><em>They are many others statements you can find them <a href="http://ss64.com/ora/">here</a></em></p>
 ]]></content>
   </entry>
   
