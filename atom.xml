@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-01-13T13:28:52+01:00</updated>
+  <updated>2015-03-10T16:55:21+01:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -12,6 +12,78 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TutorialSQLStatementsPART1]]></title>
+    <link href="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/"/>
+    <updated>2015-03-10T16:36:56+01:00</updated>
+    <id>http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1</id>
+    <content type="html"><![CDATA[<p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+
+<p>To Create your DataBase just you need to make it in one line:</p>
+
+<pre><code>CREATE DATABASE database_name
+</code></pre>
+
+<p>Now when you need to create new Table on your Data Base you have to execute:</p>
+
+<pre><code>CREATE TABLE table_name(
+  column_name1 data_type,
+  column_name2 data_type,
+  column_name3 data_type,
+  ...
+ )
+</code></pre>
+
+<ul>
+<li>The data type can be: Text, Byte, Integer, Double,Date,Char,Varchar(long),DateTime&hellip;..</li>
+<li>They are 5 Types of Constraint
+
+<blockquote><ul>
+<li>NOT NULL</li>
+<li>UNIQUE</li>
+<li>CHECK</li>
+<li>PRIMARY KEY</li>
+</ul>
+</blockquote>
+
+<p>  <col1> Type Data Primary Key</p></li>
+</ul>
+
+
+<blockquote><ul>
+<li>FOREIGN KEY</li>
+</ul>
+</blockquote>
+
+<pre><code>CONSTRAINT  &lt;fk table column&gt; FOREIGN KEY (col1, col2, ... coln)  REFERENCES&lt;extended table&gt; (col1, col2, ...  coln)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>&lt;col1&gt;CONSTRAINT &lt;fk table column&gt; REFERENCES &lt;extended Table&gt;(col)  
+</code></pre>
+
+<p>To make some modification on Table exist on your Data Base</p>
+
+<pre><code>ALTER TABLE table_name ADD column_name datatype
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>ALTER TABLE table_name DROP COLUMN column_name
+</code></pre>
+
+<ul>
+<li>Add: to add a column</li>
+<li>Modify: apply some modification on column exist</li>
+<li>Drop: Drop column</li>
+<li>Add Constraint: to add a constraint to a Column</li>
+<li>Drop Constraint: to delete constraint</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mozilla Work Week in Portland]]></title>

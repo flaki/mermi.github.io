@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Left Sidebar Page - Manel Rhaiem</title>
+  <title>TutorialSQLStatementsPART1 - Manel Rhaiem</title>
   <meta name="author" content="Manel">
 
   
-  <meta name="description" content="Left Sidebar Page Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam &hellip;">
+  <meta name="description" content="This tutorial helps you to learn how to write Sql Statements let me start with : To Create your DataBase just you need to make it in one line: CREATE &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mermi.github.io/no-sidebar/left-sidebar">
+  <link rel="canonical" href="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
@@ -65,25 +65,143 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Left Sidebar Page</h1>
+    
+      <h1 class="entry-title">TutorialSQLStatementsPART1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-10T16:36:56+01:00" pubdate data-updated="true"></time>
+        
+      </p>
     
   </header>
+
+
+<div class="entry-content"><p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+
+<p>To Create your DataBase just you need to make it in one line:</p>
+
+<pre><code>CREATE DATABASE database_name
+</code></pre>
+
+<p>Now when you need to create new Table on your Data Base you have to execute:</p>
+
+<pre><code>CREATE TABLE table_name(
+  column_name1 data_type,
+  column_name2 data_type,
+  column_name3 data_type,
+  ...
+ )
+</code></pre>
+
+<ul>
+<li>The data type can be: Text, Byte, Integer, Double,Date,Char,Varchar(long),DateTime&hellip;..</li>
+<li>They are 5 Types of Constraint
+
+<blockquote><ul>
+<li>NOT NULL</li>
+<li>UNIQUE</li>
+<li>CHECK</li>
+<li>PRIMARY KEY</li>
+</ul>
+</blockquote>
+
+<p>  <col1> Type Data Primary Key</p></li>
+</ul>
+
+
+<blockquote><ul>
+<li>FOREIGN KEY</li>
+</ul>
+</blockquote>
+
+<pre><code>CONSTRAINT  &lt;fk table column&gt; FOREIGN KEY (col1, col2, ... coln)  REFERENCES&lt;extended table&gt; (col1, col2, ...  coln)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>&lt;col1&gt;CONSTRAINT &lt;fk table column&gt; REFERENCES &lt;extended Table&gt;(col)  
+</code></pre>
+
+<p>To make some modification on Table exist on your Data Base</p>
+
+<pre><code>ALTER TABLE table_name ADD column_name datatype
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>ALTER TABLE table_name DROP COLUMN column_name
+</code></pre>
+
+<ul>
+<li>Add: to add a column</li>
+<li>Modify: apply some modification on column exist</li>
+<li>Drop: Drop column</li>
+<li>Add Constraint: to add a constraint to a Column</li>
+<li>Drop Constraint: to delete constraint</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
-<p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in.</p>
+<span class="byline author vcard">Posted by <span class="fn">Manel</span></span>
 
-<p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+      
+
+
+
+
+
+
+
 
   
-    <footer>
+
+
+<time datetime="2015-03-10T16:36:56+01:00" pubdate data-updated="true"></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/" data-via="https://twitter.com/manelbutterfly" data-counturl="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/13/mozilla-work-week-in-portland/" title="Previous Post: Mozilla Work Week in Portland">&laquo; Mozilla Work Week in Portland</a>
       
       
-    </footer>
-  
+    </p>
+  </footer>
 </article>
 
 </div>

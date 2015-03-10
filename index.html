@@ -9,8 +9,7 @@
   <meta name="author" content="Manel">
 
   
-  <meta name="description" content="It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
-In this &hellip;">
+  <meta name="description" content="This tutorial helps you to learn how to write Sql Statements let me start with : To Create your DataBase just you need to make it in one line: CREATE &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +66,105 @@ In this &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-10T16:36:56+01:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+
+<p>To Create your DataBase just you need to make it in one line:</p>
+
+<pre><code>CREATE DATABASE database_name
+</code></pre>
+
+<p>Now when you need to create new Table on your Data Base you have to execute:</p>
+
+<pre><code>CREATE TABLE table_name(
+  column_name1 data_type,
+  column_name2 data_type,
+  column_name3 data_type,
+  ...
+ )
+</code></pre>
+
+<ul>
+<li>The data type can be: Text, Byte, Integer, Double,Date,Char,Varchar(long),DateTime&hellip;..</li>
+<li>They are 5 Types of Constraint
+
+<blockquote><ul>
+<li>NOT NULL</li>
+<li>UNIQUE</li>
+<li>CHECK</li>
+<li>PRIMARY KEY</li>
+</ul>
+</blockquote>
+
+<p>  <col1> Type Data Primary Key</p></li>
+</ul>
+
+
+<blockquote><ul>
+<li>FOREIGN KEY</li>
+</ul>
+</blockquote>
+
+<pre><code>CONSTRAINT  &lt;fk table column&gt; FOREIGN KEY (col1, col2, ... coln)  REFERENCES&lt;extended table&gt; (col1, col2, ...  coln)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>&lt;col1&gt;CONSTRAINT &lt;fk table column&gt; REFERENCES &lt;extended Table&gt;(col)  
+</code></pre>
+
+<p>To make some modification on Table exist on your Data Base</p>
+
+<pre><code>ALTER TABLE table_name ADD column_name datatype
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>ALTER TABLE table_name DROP COLUMN column_name
+</code></pre>
+
+<ul>
+<li>Add: to add a column</li>
+<li>Modify: apply some modification on column exist</li>
+<li>Drop: Drop column</li>
+<li>Add Constraint: to add a constraint to a Column</li>
+<li>Drop Constraint: to delete constraint</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -214,11 +312,11 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/11/14/first-participation-on-mozilla-festival/">First Participation on Mozilla Festival</a>
+        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
       </li>
     
   </ul>
@@ -230,11 +328,11 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/11/14/first-participation-on-mozilla-festival/">First Participation on Mozilla Festival</a>
+        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
       </li>
     
   </ul>
