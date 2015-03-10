@@ -161,6 +161,47 @@
 
 
 <h4>Create and Modify View: a view is a virtual table based on the result-set of an SQL statement.</h4>
+
+<pre><code>CREATE [OR REPLACE ] [FORCEjNOFORCE] VIEW &lt;nom vue&gt; [(alias [, alias], . . . )] AS SELECT [WITH CHECK OPTION    [CONSTRAINT&lt;nom contrainte&gt;]] [WITH READ ONLY [CONSTRAINT &lt;nom contrainte&gt;]] ;
+</code></pre>
+
+<h4>Create Sequence :</h4>
+
+<pre><code>CREATE SEQUENCE &lt;nom séquence&gt;
+[INCREMENT BY &lt;pas&gt;]
+[START WITH &lt;valeur&gt;]
+[MAXVALUE &lt;valeur max&gt; |NOMAXVALUEg]
+[MINVALUE &lt;valeur min&gt; | NOMINVALUEg]
+[CYCLE j NOCYCLEg]
+[CACHE &lt;cache&gt; |NOCACHE]  
+</code></pre>
+
+<blockquote><ul>
+<li>INCREMENT BY: define the step of incrementation</li>
+<li>START WITH : the first number of incrementation</li>
+<li>MAXVALUE |NOMAXVALUE : The MAX value</li>
+<li>MINVALUE || NOMINVALUE: The Min Value</li>
+<li>CYCLE | NOCYCLE</li>
+<li>CACHE | NOCACHE: values for performance</li>
+</ul>
+</blockquote>
+
+<h4>Create INDEX:  used to speed up searches/queries</h4>
+
+<pre><code>CREATE [UNIQUE] INDEX &lt;nom index&gt; ON &lt;nom table&gt;(col1, col2,...)
+</code></pre>
+
+<h4>Create and Delete Synonym:</h4>
+
+<pre><code>CREATE [OR REPLACE] [PUBLIC] SYNONYM&lt;nom synonyme&gt; FOR [schema.]&lt;nom objet&gt;
+</code></pre>
+
+<h4>Select Statement :</h4>
+
+<p><em>it is used to Select Data from data Base they different kind of Select for Example:</em></p>
+
+<pre><code>Select * From Table
+</code></pre>
 </div>
   
   
