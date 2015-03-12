@@ -228,6 +228,101 @@
 
 <blockquote><p>   SELECT LastName,FirstName,Address FROM EMPLYEE WHERE Address IS NULL</p></blockquote>
 
+<h4>Functions:</h4>
+
+<h5>Char Function</h5>
+
+<ul>
+<li><p>LOWER(String)</p>
+
+<blockquote><p>Convert upper String to lower</p></blockquote></li>
+<li><p>UPPER(String)</p>
+
+<blockquote><p>Convert lower String to upper</p></blockquote></li>
+<li><p>INITCAP(String)</p>
+
+<blockquote><p>Convert the first caracter to Upper and the other lower</p></blockquote></li>
+<li><p>CONCAT(String1,String2)</p>
+
+<blockquote><p>Concat the first string with the second string</p></blockquote></li>
+<li><p>SUBSTR(String,pos[length])</p>
+
+<blockquote><p>Extract a sub String from the String in parameter, from the position given in parameter</p></blockquote></li>
+<li><p>LPAD(String, length, char)</p>
+
+<blockquote><p>the char can be * or any other char, LPAD serve to complete the String  with the char in the left</p></blockquote></li>
+<li><p>RPAD(String, length,char)</p>
+
+<blockquote><p>the char can be * or any other char, RPAD serve to complete the String  with the char in the right</p></blockquote></li>
+<li><p>LTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the left</p></blockquote></li>
+<li><p>RTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the right</p></blockquote></li>
+<li><p>ASCII(String)</p>
+
+<blockquote><p>return the ASCII code of the first caracter</p></blockquote></li>
+</ul>
+
+
+<h5>Numeric function</h5>
+
+<ul>
+<li><p>ROUND(45.926,2)</p>
+
+<blockquote><p>return 45.92</p></blockquote></li>
+<li><p>FLOOR(45.926)</p>
+
+<blockquote><p>return 45</p></blockquote></li>
+<li><p>CEIL(45.926)</p>
+
+<blockquote><p>return 46</p></blockquote></li>
+<li><p>GREATEST(4,-1,7)</p>
+
+<blockquote><p>return 7</p></blockquote></li>
+</ul>
+
+
+<p>LEAST(4,-1,7)</p>
+
+<blockquote><p>return -1</p></blockquote>
+
+<h5>Date function</h5>
+
+<ul>
+<li><p>SYSDATE or CURRENT_DATE</p>
+
+<blockquote><p>return the date of your system</p></blockquote></li>
+<li><p>MONTHS_BETWEEN(d1,d2)</p>
+
+<blockquote><p>return the number of months between d1 and d2</p></blockquote></li>
+<li><p>ADD_MONTHS(d,j)</p>
+
+<blockquote><p>add j months to the date d</p></blockquote></li>
+<li><p>NEXT_DAY(d,j)</p>
+
+<blockquote><p>return the next date of the day j for example: NEXT_DAY(&lsquo;01-SEP-95&rsquo;,&lsquo;FRIDAY&rsquo;) => 08-SEP-95</p></blockquote></li>
+<li><p>ROUND(d,p)</p>
+
+<blockquote><p>ROUND(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;)) return 01-08-03</p></blockquote></li>
+<li><p>TRUNC(d,p)</p>
+
+<blockquote><p>TRUNC(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;),&lsquo;MONTH&rsquo;) return 01-07-03</p></blockquote></li>
+<li><p>EXTRACT(p FROM d)</p>
+
+<blockquote><p>EXTRACT(day from to_date(&lsquo;25-07-03&rsquo;)) return 25</p></blockquote></li>
+<li><p>TO_CHAR(date,format)</p>
+
+<blockquote><p>convert date to the format in the parameter (for more details visit this link)</p></blockquote></li>
+<li><p>TO_DATE(String,format)</p></li>
+</ul>
+
+
+<h4>Join</h4>
+
+<p> <em>is to combine rows from two or more tables</em></p>
+
 <p><em>They are many others statements you can find them <a href="http://ss64.com/ora/">here</a></em></p>
 </div>
 
@@ -273,6 +368,8 @@
         <a class="basic-alignment left" href="/blog/2015/01/13/mozilla-work-week-in-portland/" title="Previous Post: Mozilla Work Week in Portland">&laquo; Mozilla Work Week in Portland</a>
       
       
+        <a class="basic-alignment right" href="/blog/2015/03/10/tutorialsqlstatementpart2/" title="Next Post: TutorialSQLStatementPart2">TutorialSQLStatementPart2 &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -308,11 +405,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementpart2/">TutorialSQLStatementPart2</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
       </li>
     
   </ul>
@@ -324,11 +421,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementpart2/">TutorialSQLStatementPart2</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
       </li>
     
   </ul>
