@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-03-12T22:38:23+01:00</updated>
+  <updated>2015-03-12T22:40:39+01:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[TutorialSQLStatementPart2]]></title>
-    <link href="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementpart2/"/>
-    <updated>2015-03-10T17:39:05+01:00</updated>
-    <id>http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementpart2</id>
-    <content type="html"><![CDATA[<p>In this part of tutorial we will see how to work with Join and the Functions, let me start with Joins:</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[TutorialSQLStatementsPART1]]></title>
