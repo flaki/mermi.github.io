@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Mozilla Work Week in Portland - Manel Rhaiem</title>
+  <title>Let&#8217;s See How to Run the Fantastic Spark on the Flame - Manel Rhaiem</title>
   <meta name="author" content="Manel">
 
   
-  <meta name="description" content="It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
-In this &hellip;">
+  <meta name="description" content="Today, I enjoyed my day with this amazing Version of Firefox OS Spark , First let me tell you about it, It&rsquo;s a customization and features built &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ In this &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland">
+  <link rel="canonical" href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
@@ -70,7 +69,7 @@ In this &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Mozilla Work Week in Portland</h1>
+      <h1 class="entry-title">Let&#8217;s See How to Run the Fantastic Spark on the Flame</h1>
     
     
       <p class="meta">
@@ -86,27 +85,70 @@ In this &hellip;">
   
 
 
-<time datetime="2015-01-13T13:16:46+01:00" pubdate data-updated="true"></time>
+<time datetime="2015-06-15T02:25:10+02:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
-In this Post I am telling you about my experience in a Mozilla Work Week:</p>
+<div class="entry-content"><p>Today, I enjoyed my day with this amazing Version of <strong>Firefox OS</strong> <strong>Spark</strong> , First let me tell you about it, It&rsquo;s a <strong>customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative</strong> , Spark is intended to empower users to customize their experience, hack whatever they want to, and make their devices truly theirs. for more informations, I invite to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
 
-<p>Me and Ahmed Nefzaoui, were invited to participate to this amazing work week, It was a huge opportunity for us to ,  At first we  were stressed  about getting our USA Visa, and then when we got it, the adventure travelling to USA and meet the most important people of Mozilla started.</p>
+<p>Now, I will talk about my experience:</p>
 
-<p>It was from 1st December to 6th, which was gathering the different teams and people from different functional areas working for the Mozilla project, to plan for the future of Mozilla, specifically for the next year but also have a lot of FUN.
-I was invited by the CBT (Community Building Team), because of the kind of my contribution, I was also around Localization, Webmaker and Firefox OS teams, I presented in many sessions in which discussed about Mozilla Events in 2015 and about the regional community propose solutions to the current problems. Amazing experience it was.
-I&rsquo;m very proud to be there and meet all those awesome people I always knew through IRC, Twitter and Facebook. I had a chance to meet Pascal Chevrel  and talked  with him about Arabic Localization and I had the chance to get guidance from him on how to work on the l10n of mozilla.org.</p>
+<blockquote><p>How to flash it on the Flame?</p>
 
-<p>I met also the Firefox OS UX Team led by Stephany Wilkes to discuss Design Patterns in Firefox OS Right-To-Left (RTL) User interface I was very happy to meet them and I spoke spontaneously to them, just because I felt like with my family.
-I was very proud and glad to finally meet the lovely french women that I knew through IRC and Twitter and the first person to guide me in Womoz &ldquo;Dephine&rdquo;.
-&ldquo; I&rsquo;m very glad to meet you delphine, I spent amazing moments with you in #mozlandia &rdquo;
-I had the opportunity to meet and know new Mozillians, Thanks for all the people that made my travel and this experience happen  with a lot of Fun.
-Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to meet you all very soon!!</p>
+<p>The adventure of discovering</p></blockquote>
+
+<h2>Let&rsquo;s Start with the Flash</h2>
+
+<p>If you have the last version (<strong>3.0</strong>) of Firefox OS it&rsquo;s okay, If you are in the <strong>2.0</strong> or <strong>2.2</strong> Version let&rsquo;s switch to the Last Version because they aren&rsquo;t in the same Base image. So to flash your flame you need to Download <a href="cds.w5v8t3u9.hwcdn.net/v18D_nightly_v2.zip">the nightly Base Image</a> Before updating your phone, Then after the download you just need to extract the file, Make your phone in the <a href="https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide/Flame/Updating_your_Flame#Fastboot_mode">fastboot mode</a> and finally open your Terminal and run the flash.sh script <code>./flash.sh</code> .</p>
+
+<p>Now, you can update your phone to the 3.0 Version, all you need is to download the gaia and b2g image from <a href="https://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame-kk-eng/">here</a> and the <a href="https://raw.githubusercontent.com/Mozilla-TWQA/B2G-flash-tool/master/shallow_flash.sh">shallow script</a></p>
+
+<p>and after run this command in your terminal:
+<code>sudo ./shallow_flash.sh -g/home/mermi/Version2.2-Gaia/Flash3.0/gaia.zip -G/home/mermi/Version2.2-Gaia/Flash3.0/b2g-41.0a1.en-US.android-arm.tar.gz</code> .</p>
+
+<p>The last thing to do to get the <strong>spark Version</strong> is just running this command in your Terminal under the gaia repository: <code>sudo GAIA_DISTRIBUTION_DIR=distros/spark make reset-gaia</code></p>
+
+<h5>And you will get the famous spark like me :D</h5>
+
+<p><img src="http://i.imgur.com/29dXTGw.png?1" alt="SparkVersionFxOS" /></p>
+
+<h2>Let&rsquo;s Discover the New Things</h2>
+
+<p>First you need to enable the Developer Mode
+<img src="http://i.imgur.com/qMJjm2C.png?1" alt="enableDevMode" /></p>
+
+<p>When you open any one of this App ( Customizer, Hackerplace, Studio,..) you should follow the instructions appeared</p>
+
+<p><img src="http://i.imgur.com/2xc0C49.png?1" alt="inst1" /></p>
+
+<hr />
+
+<p><img src="http://i.imgur.com/iW2l5lv.png?1" alt="inst2" /></p>
+
+<p><strong><em> And after the Last Enable </em></strong></p>
+
+<p><img src="http://i.imgur.com/UjE902h.png?1" alt="instn" /></p>
+
+<blockquote><p>your phone will restart to switch to the developer Mode</p></blockquote>
+
+<h3>Customizer Application:</h3>
+
+<p><img src="http://i.imgur.com/Vbgu8CZ.png?1" alt="customizer" /></p>
+
+<p>** You will find all the available Application in your phone</p>
+
+<h3>Hackerplace Application</h3>
+
+<p><img src="http://i.imgur.com/nWRA3Pl.png?1" alt="Hackerplace" /></p>
+
+<p><strong>* Here we find Apps and Add-Ons, with just one Addon </strong><a href="https://github.com/mikehenrty/fxos-cracked">Cracked</a>**</p>
+
+<p>and a Lot of other Applications like <strong>Twitter</strong>, <strong>Facebook</strong>, <strong>WhatsApp</strong>, <strong>Notes</strong>, <strong>Bugzilla Lite</strong>, <strong>Webmaker</strong>, <strong>BuddyUp</strong></p>
+
+<p>I really Appreciate this Version and I think it can be better and will appreciate all the persons use Firefox OS.</p>
 </div>
 
 
@@ -129,15 +171,21 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
   
 
 
-<time datetime="2015-01-13T13:16:46+01:00" pubdate data-updated="true"></time>
+<time datetime="2015-06-15T02:25:10+02:00" pubdate data-updated="true"></time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/firefox-os/'>firefox os</a>, <a class='category' href='/blog/categories/mozilla/'>mozilla</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/" data-via="https://twitter.com/manelbutterfly" data-counturl="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/" data-via="https://twitter.com/manelbutterfly" data-counturl="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/" >Tweet</a>
   
   
   
@@ -148,10 +196,8 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/11/14/first-participation-on-mozilla-festival/" title="Previous Post: First participation on Mozilla Festival">&laquo; First participation on Mozilla Festival</a>
+        <a class="basic-alignment left" href="/blog/2015/03/10/tutorialsqlstatementspart1/" title="Previous Post: TutorialSQLStatementsPART1">&laquo; TutorialSQLStatementsPART1</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/03/10/tutorialsqlstatementspart1/" title="Next Post: TutorialSQLStatementsPART1">TutorialSQLStatementsPART1 &raquo;</a>
       
     </p>
   </footer>
