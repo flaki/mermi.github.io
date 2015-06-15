@@ -4,7 +4,7 @@
   <title><![CDATA[Category: firefox os | Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/blog/categories/firefox-os/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-06-15T11:03:15+02:00</updated>
+  <updated>2015-06-16T01:20:25+02:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -34,7 +34,7 @@
 
 <p>and after that run this command in your terminal:</p>
 
-<p><code>sudo ./shallow_flash.sh -g/home/mermi/Version2.2-Gaia/Flash3.0/gaia.zip -G/home/mermi/Version2.2-Gaia/Flash3.0/b2g-41.0a1.en-US.android-arm.tar.gz</code> .</p>
+<p><code>sudo ./shallow_flash.sh -g/home/mermi/../gaia.zip -G/home/mermi/../b2g-41.0a1.en-US.android-arm.tar.gz</code> .</p>
 
 <p>The last thing to do to get the <strong>spark Version</strong> is to run this command in your Terminal under the gaia repository:</p>
 
