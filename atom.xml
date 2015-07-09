@@ -4,7 +4,7 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-03-12T22:40:39+01:00</updated>
+  <updated>2015-07-09T04:02:34+02:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Manel]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Great Work Week in a Spectacular Setting]]></title>
+    <link href="http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/"/>
+    <updated>2015-07-09T03:27:51+02:00</updated>
+    <id>http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting</id>
+    <content type="html"><![CDATA[<p>I was so happy to attend this Work Week, first because I was invited by the QA Team and I was so excited to meet them in person and learn more from them during the course of the Work Week.</p>
+
+<p>The work week started on 22th June evening until the evening of the 27th. It was a <em>busy</em> week, and during the course of the week I met a lot of nice people and discovered a lot of things about other projects in Mozilla. I also had some time to discover the charming Village where the event was held.</p>
+
+<p>At first, all of us attended the All hands sessions, because in this kind of conference all the Mozilla&rsquo;s executives talk about the good and weak point in some projects, and about the Mozilla Future, such as:</p>
+
+<p>The participation Team, a newly formed team in Mozilla worked hard to take care of each person in the community, and they rocked in the stage too:</p>
+
+<p><a href="https://twitter.com/comzeradd/status/614112419686645760" title="Permalink to Nikos Roussos on Twitter: &quot;#mozwww &quot;Mozillians live beside our users. They are our eyes into every market in the world&quot; http://t.co/3FoozAqtEQ&quot;">I liked very much this part :</a> # Nikos Roussos on Twitter: &ldquo;#mozwww &#8220;Mozillians live beside our users. They are our eyes into every market in the world&rdquo; <a href="http://t.co/3FoozAqtEQ">http://t.co/3FoozAqtEQ</a>&#8221;</p>
+
+<p>At this Work Week I participated in two sessions about QA and two sessions about l10n.</p>
+
+<p>In the First QA session, Naoki gave a session on Worldwide QA and Peter B. gave an   Overall Review on QA Test. It was an interesting session for me discovering how the team works on the project working with to make a good tests.  I also heard about the Automation at this time from Johan. But I was a little bit disappointed at first, since all the participants in the room were employees and I was the only contributor so I didn&rsquo;t easily understand what they are talking about and they didn&rsquo;t look interested in the contributor., When they talked about contributors during this time I can talk and discuss with them, but it was only in few minutes. On the last day Johan explained to me a lot of things regarding the project, and I was able to better understand the scope of what they do and became much more interested in writing some automated tests.</p>
+
+<p>The Second QA Session was with the participation Team, QA and Reps. It was a really short session - we hoped to get more time. We discussed our problems - from the contributor perspective and in the community, and we tried to grab a Problem statement from these problems &ldquo; How Might we &hellip; get 5% of the Reps doing QA know how to do better QA and train this to others&rdquo;</p>
+
+<p>It was great to discuss this statement, we hoped that we were more than 5 in this session and the others came to tell us more there problems and discuss this point with us</p>
+
+<p>Our solution was to make a program like training the trainer at first identify the Reps doing QA and this trainer will run event to get more contributor on QA.</p>
+
+<p>While in the work week I joined the l10n team for session of RTL &ldquo;next steps&rdquo; to discuss the last version released with Arabic Language and there we got the surprise from Ahmed &lsquo;The RTL guy&rsquo; - he did the 2.0 version of Firefox OS and fixed all bugs related to RTL. It was an amazing surprise, and the other session was to discuss the Arabic translation of the mozilla.org project and the fact that we need more contributors and people able to commit to SVN.</p>
+
+<p>In the end, I am so happy that I met the QA team in person and had the chance to talk and discuss with them, and It was a Great second work week for me. \o/</p>
+
+<p><img src="../images/blogimg/whistler.jpg" title="Title is optional" alt="picture alt" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TutorialSQLStatementsPART1]]></title>
